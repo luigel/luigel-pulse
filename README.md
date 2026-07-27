@@ -2,6 +2,8 @@
 
 Lightweight uptime monitoring & status pages for small teams.
 
+**Live (M1):** <https://luigel.github.io/luigel-pulse/> · health probe: <https://luigel.github.io/luigel-pulse/health>
+
 Add the HTTP endpoints you care about; Pulse checks them on a schedule, records
 up/down state and response time, emails you on state changes, and gives each
 account a hosted public status page. Trivially simple to set up — under five
@@ -65,4 +67,4 @@ to GitHub Pages. CI ([ci.yml](.github/workflows/ci.yml)) runs lint, typecheck,
 tests, and a build check on every push and pull request; `main` is branch-
 protected so a red build blocks the merge.
 
-Production URL and the `/health` link are recorded on issue **LUI-8**.
+Production URL: <https://luigel.github.io/luigel-pulse/> — health: <https://luigel.github.io/luigel-pulse/health> (returns `200 OK`). Full details on issue **LUI-8**.
